@@ -11,6 +11,7 @@ body{
 }
 p,h2{
     color: white;
+    padding:10px;
 }
 .menu{
    display:flex;
@@ -45,7 +46,23 @@ p,h2{
     font-family: Arial;
     font-size: 20px;
 }
-
+.descricao{
+    display: inline-block;
+    border-top:3px solid #2c2a2a;
+    border-bottom: 3px solid #2c2a2a;
+}
+.avatar-logo{
+    height: 50px;
+}
+.canal_nome{
+    display:flex;
+}
+.canal_nome > h1{
+    height: 52.46px;
+    width: 16;
+    padding: 20px;
+    color: white;
+}
 .grid1{
     display:grid;
     grid-template-columns: 1fr 200px;
